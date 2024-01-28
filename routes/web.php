@@ -26,3 +26,8 @@ Route::view('/','welcome');
 Route::get('/home', function () {
     return view('home');
 });
+
+
+Route::get('/webgis', function () {
+    return view('webgis');
+});
